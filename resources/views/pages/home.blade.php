@@ -4,7 +4,7 @@ Trang chủ
 @endsection
 
 @section('css')
-css riêng
+
 @endsection
 
 @section('js')

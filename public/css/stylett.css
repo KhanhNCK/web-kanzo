@@ -1,0 +1,109 @@
+.banner_contract img{
+	width: 100%;
+}
+.blog-page {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 100px;
+}
+
+.single-blog-area {
+    position: relative;
+    z-index: 1;
+    border-radius: 6px; 
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.single-blog-area img {
+    display: block;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.single-blog-area .blog-content {
+    /*padding: 5px;*/
+    overflow: hidden;
+  }
+
+.single-blog-area .blog-content .blog-headline {
+    display: block;
+    color: #BBB;
+}
+
+.single-blog-area .blog-content .blog-headline h5 {
+    margin-bottom: 5px;
+    margin-left: -1px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    color: #000000a6;
+}
+
+.single-blog-area .blog-content a:hover {
+    color: #058ff7;
+    text-decoration:none;
+  }
+
+.single-blog-area .blog-content .blog-headline h5:hover, .single-blog-area .blog-content .blog-headline h5:focus {
+    color: #058ff7; 
+  }
+
+.single-blog-area .blog-content .meta span {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 5px;
+    margin-right: 10px; 
+  }
+
+.single-blog-area .blog-content .meta a {
+    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px; 
+  }
+
+.single-blog-area .blog-content .meta a:hover {
+      color: #000; 
+  }
+
+.single-blog-area .blog-content p {
+    margin-bottom: 0; 
+  }
+
+.blog-title{
+  padding: 40px 0 50px 0;
+        
+  }
+
+.blog-title-text{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #715f5f;
+  }
+.load-more .btn-primary{
+  font-size: 25px;
+  border-radius: 0;
+  margin-bottom: 50px;
+  }
+.btn-outline-primary:hover{
+   color: white !important;
+    }  
+
+@media only screen and (max-width: 767px) {
+      .single-blog-area .blog-content .meta a {
+            font-size: 12px; 
+        } 
+  }
+  .new_row {
+  	padding-bottom: 5%;
+  }
+
+  .ccc p{
+  	text-align: justify;
+  	font-size: 15px;
+  	color: #505050;
+  }
+.naa {
+	padding: 5px;
+}

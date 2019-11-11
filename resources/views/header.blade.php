@@ -1,5 +1,5 @@
 <header>
-	đây là header
+	<!-- đây là header -->
 </header>
 
 	

@@ -1,6 +1,16 @@
 .banner_contract img{
 	width: 100%;
 }
+.hihih a{
+ color: #e67718;
+}
+.hihih h3{
+  color: #007bff;
+}
+.hihih p{
+  color: #646262;
+  font-weight: 400;
+}
 .blog-page {
     padding-left: 7%;
     padding-right: 7%;
@@ -268,7 +278,7 @@ font-size: 30px;
 font-weight: 600;
 }
 .tab-pane p{
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   color: #414141;
 }
@@ -381,3 +391,12 @@ a{
 .mapppp iframe{
   text-align: center;
 }
+@media only screen and (max-width:991px) {
+      .search input{
+        width: 100%;
+        margin-bottom: 5px;
+      }
+      .search button{
+         width: 100%;
+      }
+  }

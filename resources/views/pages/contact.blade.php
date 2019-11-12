@@ -29,8 +29,8 @@ Liên hệ
   <h3>Liên Hệ Với Kanzo</h3>
 </div>
 <div class="container">
-  <div class="row">
-    <div class="col-sm-3 text-center">
+  <div class="row hihih">
+    <div class="col-sm-3 text-center ">
 	<a href=""><i class="fas fa-2x fa-map-marker-alt mb-3 "></i></a>
 	  <h3>Trụ sở chính</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>

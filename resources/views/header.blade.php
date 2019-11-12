@@ -107,7 +107,7 @@
 						<div class="menu">
 							<div class="menu-right">
 								<ul>
-									<li><a href="/"><i class="fa fa-home"></i>Trang chủ</a></li>
+									<li><a href="{{route('home')}}"><i class="fa fa-home"></i>Trang chủ</a></li>
 									<li><a href="{{route('intro')}}">Giới thiệu</a></li>
 									<li class="menu-tier-2"><a href="{{route('product')}}">Sản phẩm <i
 												class="fa fa-angle-down"></i></a>

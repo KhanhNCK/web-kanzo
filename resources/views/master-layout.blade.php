@@ -33,5 +33,6 @@
     <script type="text/javascript" src="libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <!-- JS libs wow -->
     <script src="js/wow.js"></script>
+    <script src="js/home.js"></script>
     @yield('js')
 </html>

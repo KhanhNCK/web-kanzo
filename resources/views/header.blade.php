@@ -17,7 +17,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="col-md-4 a1">
 					<div class="icon_ship row">
 						<div class="ic col-md-3">

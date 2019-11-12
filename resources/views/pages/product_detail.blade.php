@@ -76,7 +76,6 @@ Chi tiết sản phẩm
                       <span class="text-muted"><small>bếp từ abcxyz</small></span>
                     </div>
                   </div>
-
                 </div>
                 <!-- /.recommended-items-->
                 <div class="product-description mb-5">
@@ -121,5 +120,4 @@ Chi tiết sản phẩm
     </div>
   </div>
 </main>
-
 @endsection

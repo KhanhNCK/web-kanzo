@@ -17,12 +17,14 @@ Tin tức
 
 <section>
 	
-    <div class="h-category-banner">
-        <h2 class="text-center">Tin tức liên quan đến gas</h2>
-        <div class="h-category-banner-black">
+   <div class="container-fruid">
+   <div class="h-category-banner">
+  <h2 class="text-center" data-aos="fade-up" data-aos-delay="200" style="color: #fff;">TIN TỨC</h2>
+  <div class="h-category-banner-black">
 
-        </div>
-    </div>
+  </div>
+</div>
+  </div>
     <div class="container ">
         <div class="row mt-5">
 
@@ -51,7 +53,7 @@ Tin tức
 
                     <div class="tab-pane fade show active " id="" role="tabpanel" aria-labelledby="home-tab-1">
                        
-                        <hr class="w-100 my-3">
+                        <!-- <hr class="w-100 my-3"> -->
                         <div class="row mt-3 codong-ct active" data-aos="fade-up" data-aos-delay="200">
 
                             <div class="single-blog-area mb-2 mr-3 ml-4 wow fadeInUp">
@@ -234,7 +236,7 @@ Tin tức
             <div class="col-md-3 tin-tuc-content" data-aos="fade-up" data-aos-delay="400">
                 <ul class="list-group">
                     <li class="list-group-item text-center font-weight-bold"
-                        style="background-color: #058ff7 ; color: white">TIN MỚI
+                        style="background-color: #e67718 ; color: white">TIN MỚI
                     </li>
                    
                         <li class="list-group-item">

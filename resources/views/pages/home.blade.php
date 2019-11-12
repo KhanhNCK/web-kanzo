@@ -51,49 +51,52 @@ Trang chủ
 						<h3>SẢN PHẨM NỔI BẬT</h3>
 					</div> -->
                     <div class="hoverabc row">
-                        <figure class="snip1477 col-md-4 wow fadeInLeft ">
-                            <img class="img-fluid" src="images/slide1.jpg" alt="sample38" />
-                            <div class="title">
-                                <div>
-                                    <h4>Bếp ga âm</h4>
+                        <a href="{{route('product')}}"> <figure class="snip1477 col-md-4 wow fadeInLeft ">
+                                <img class="img-fluid" src="images/slide1.jpg" alt="sample38" />
+                                <div class="title">
+                                    <div>
+                                        <h4>Bếp ga âm</h4>
+                                    </div>
                                 </div>
+                                <figcaption>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi laudantium
+                                        sunt molestiae. Error, ipsa temporibus consequatur aperiam earum excepturi? Placeat
+                                        rem ut minus dolorum veniam voluptate facilis minima eaque?</p>
+                                </figcaption>
+                                
+                            </figure></a>
+                       
+                        <a href="{{route('product')}}"><figure class="snip1477 col-md-4 wow fadeInUp"><img class="img-fluid" src="images/slide1.jpg"
+                            alt="sample91" />
+                        <div class="title">
+                            <div>
+                                <h4>Bếp từ </h4>
                             </div>
-                            <figcaption>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi laudantium
-                                    sunt molestiae. Error, ipsa temporibus consequatur aperiam earum excepturi? Placeat
-                                    rem ut minus dolorum veniam voluptate facilis minima eaque?</p>
-                            </figcaption>
-                            <a href="#"></a>
-                        </figure>
-                        <figure class="snip1477 col-md-4 wow fadeInUp"><img class="img-fluid" src="images/slide1.jpg"
-                                alt="sample91" />
-                            <div class="title">
-                                <div>
-                                    <h4>Bếp từ </h4>
-                                </div>
+                        </div>
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe quas explicabo
+                                pariatur molestiae provident porro est, obcaecati repellat, aliquid blanditiis
+                                facilis magni neque laborum dolorem alias odio. Fuga, libero! Esse?</p>
+                        </figcaption>
+                      
+                    </figure></a>
+                        
+                        <a href="{{route('product')}}"><figure class="snip1477 col-md-4 wow fadeInRight"><img class="img-fluid" src="images/slide1.jpg"
+                            alt="sample35" />
+                        <div class="title">
+                            <div>
+                                <h4>Máy hút mùi</h4>
                             </div>
-                            <figcaption>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe quas explicabo
-                                    pariatur molestiae provident porro est, obcaecati repellat, aliquid blanditiis
-                                    facilis magni neque laborum dolorem alias odio. Fuga, libero! Esse?</p>
-                            </figcaption>
-                            <a href="#"></a>
-                        </figure>
-                        <figure class="snip1477 col-md-4 wow fadeInRight"><img class="img-fluid" src="images/slide1.jpg"
-                                alt="sample35" />
-                            <div class="title">
-                                <div>
-                                    <h4>Máy hút mùi</h4>
-                                </div>
-                            </div>
-                            <figcaption>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non sit earum
-                                    asperiores quae accusantium nam corrupti doloremque dolor nemo odit nesciunt,
-                                    assumenda nisi quidem repellat vel laboriosam cum! Ipsum?
-                                </p>
-                            </figcaption>
-                            <a href="#"></a>
-                        </figure>
+                        </div>
+                        <figcaption>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non sit earum
+                                asperiores quae accusantium nam corrupti doloremque dolor nemo odit nesciunt,
+                                assumenda nisi quidem repellat vel laboriosam cum! Ipsum?
+                            </p>
+                        </figcaption>
+                       
+                    </figure></a>
+                        
                     </div>
                 </div>
             </div>
@@ -136,7 +139,7 @@ Trang chủ
                                     assumenda ut, laboriosam exercitationem, maiores quam. Aspernatur!
                                 </p>
 
-                                <a href="" class="btn-detail" style="border-radius: none;">Xem thêm</a>
+                                <a href="{{route('intro')}}" class="btn-detail" style="border-radius: none;">Xem thêm</a>
 
                             </div>
 
@@ -198,73 +201,73 @@ Trang chủ
                 <div id="bg1" class="container tab-pane active">
                     <div class="row">
                         <div class="col-md-4 img-pro">
-                            <a class="plus-zoom" href="">
+                            <a class="plus-zoom" href="{{route('product_detail')}}">
                                 <img src="{{asset('images/beptu1.png')}}" alt="">
                             </a> </div>
 
                         <div class="col-md-8 ">
                             <div class="row ">
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
@@ -280,73 +283,73 @@ Trang chủ
                 <div id="bg2" class="container tab-pane fade">
                     <div class="row">
                         <div class="col-md-4 img-pro">
-                            <a class="plus-zoom" href="">
+                            <a class="plus-zoom" href="{{route('product_detail')}}">
                                 <img src="{{asset('images/beptu1.png')}}" alt="">
                             </a> </div>
 
                         <div class="col-md-8 ">
                             <div class="row ">
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
@@ -361,18 +364,29 @@ Trang chủ
                 <div id="bg3" class="container tab-pane fade">
                     <div class="row">
                         <div class="col-md-4 img-pro">
-                            <a class="plus-zoom" href="">
+                            <a class="plus-zoom" href="{{route('product_detail')}}">
                                 <img src="{{asset('images/beptu1.png')}}" alt="">
                             </a> </div>
 
                         <div class="col-md-8 ">
                             <div class="row ">
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
+                                            <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
+                                        </a>
+                                        <p>15.000.000 <del>17.000.000</del></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 item">
+                                    <a href="{{route('product_detail')}}">
+                                        <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
+                                    <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
+                                    <div class="title-item">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
@@ -383,51 +397,40 @@ Trang chủ
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 item">
-                                    <a href="">
+                                    <a href="{{route('product_detail')}}">
                                         <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
                                     <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
                                     <div class="title-item">
-                                        <a href="#">
-                                            <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
-                                        </a>
-                                        <p>15.000.000 <del>17.000.000</del></p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 item">
-                                    <a href="">
-                                        <img class="img-nd" src="{{asset('images/bt1.jpg')}}" alt=""></a>
-                                    <span><img src="{{asset('images/openbox.png')}}" alt=""></span>
-                                    <div class="title-item">
-                                        <a href="#">
+                                        <a href="{{route('product_detail')}}">
                                             <h4>Bếp từ Hitachi R-WX74J-X 735L</h4>
                                         </a>
                                         <p>15.000.000 <del>17.000.000</del></p>
@@ -451,7 +454,7 @@ Trang chủ
                 </div>
                 <div class="row">
                     <div class="col-md-4 ">
-                        <a href="#">
+                        <a href="{{route('new')}}">
                             <div class="plus">
                                 <img src="images/slide1.jpg" alt="">
                             </div>
@@ -469,7 +472,7 @@ Trang chủ
                         </div>
                     </div>
                     <div class="col-md-4 ">
-                        <a href="#">
+                        <a href="{{route('new')}}">
                             <div class="plus">
                                 <img src="images/slide1.jpg" alt="">
                             </div>
@@ -487,7 +490,7 @@ Trang chủ
                         </div>
                     </div>
                     <div class="col-md-4 ">
-                        <a href="#">
+                        <a href="{{route('new')}}">
                             <div class="plus">
                                 <img src="images/slide1.jpg" alt="">
                             </div>

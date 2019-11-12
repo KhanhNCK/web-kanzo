@@ -9,7 +9,7 @@ Tin tức
 
 @section('js')
 <script>
-	new WOW().init();
+	new_detail WOW().init();
 </script>
 @endsection
 
@@ -69,16 +69,16 @@ Tin tức
                                     </div>
                                     <!-- Blog Content -->
                                     <div class="col-md-8 blog-content">
-                                        <a href="" class="blog-headline">
+                                        <a href="{{route('new_detail')}}" class="blog-headline">
                                             <h5>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc,bếp ga nổi PALOMA PAJS25B</h5>
                                         </a>
                                         <div class="meta d-flex align-items-center">
                                             07-11-2019
                                         </div>
-                                        <a href="" class="ccc">
+                                        <a href="{{route('new_detail')}}" class="ccc">
                                         	<p>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</p>
                                         </a>
-                                        <a href=""
+                                        <a href="{{route('new_detail')}}"
                                            class="btn btn-outline-primary btn-sm mt-3">
                                             Đọc tiếp 
                                         </a>
@@ -97,16 +97,16 @@ Tin tức
                                     </div>
                                     <!-- Blog Content -->
                                     <div class="col-md-8 blog-content">
-                                        <a href="" class="blog-headline">
+                                        <a href="{{route('new_detail')}}" class="blog-headline">
                                             <h5>Nguy hiểm lớn từ những sai lầm nhỏ</h5>
                                         </a>
                                         <div class="meta d-flex align-items-center">
                                             07-11-2019
                                         </div>
-                                        <a href="" class="ccc">
+                                        <a href="{{route('new_detail')}}" class="ccc">
                                         	<p>GiadinhNet - Rất nhiều vụ tai nạn đáng tiếc xảy ra mà nguyên nhân từ sự thiếu hiểu biết của người tiêu dùng về gas.</p>
                                         </a>
-                                        <a href=""
+                                        <a href="{{route('new_detail')}}"
                                            class="btn btn-outline-primary btn-sm mt-3">
                                             Đọc tiếp 
                                         </a>
@@ -126,16 +126,16 @@ Tin tức
                                     </div>
                                     <!-- Blog Content -->
                                     <div class="col-md-8 blog-content">
-                                        <a href="" class="blog-headline">
+                                        <a href="{{route('new_detail')}}" class="blog-headline">
                                             <h5>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</h5>
                                         </a>
                                         <div class="meta d-flex align-items-center">
                                             07-11-2019
                                         </div>
-                                        <a href="" class="ccc">
+                                        <a href="{{route('new_detail')}}" class="ccc">
                                         	<p>Đây là những mẹo nhỏ nhưng không phải ai cũng biết giúp tiết kiệm ga cho gia đình.</p>
                                         </a>
-                                        <a href=""
+                                        <a href="{{route('new_detail')}}"
                                            class="btn btn-outline-primary btn-sm mt-3">
                                             Đọc tiếp 
                                         </a>
@@ -153,16 +153,16 @@ Tin tức
                                     </div>
                                     <!-- Blog Content -->
                                     <div class="col-md-8 blog-content">
-                                        <a href="" class="blog-headline">
+                                        <a href="{{route('new_detail')}}" class="blog-headline">
                                             <h5>Sau những vụ bếp ga mini phát nổ như bom: Dùng sai cách là tự hại gia đình mình</h5>
                                         </a>
                                         <div class="meta d-flex align-items-center">
                                             07-11-2019
                                         </div>
-                                        <a href="" class="ccc">
+                                        <a href="{{route('new_detail')}}" class="ccc">
                                         	<p>Từng có trường hợp nạn nhân N.K.T, 21 tuổi (Đắk Lắk) phải cắt bỏ bàn tay trái vì bếp ga mini bất ngờ phát nổ như bom.</p>
                                         </a>
-                                        <a href=""
+                                        <a href="{{route('new_detail')}}"
                                            class="btn btn-outline-primary btn-sm mt-3">
                                             Đọc tiếp 
                                         </a>
@@ -180,16 +180,16 @@ Tin tức
                                     </div>
                                     <!-- Blog Content -->
                                     <div class="col-md-8 blog-content">
-                                        <a href="" class="blog-headline">
+                                        <a href="{{route('new_detail')}}" class="blog-headline">
                                             <h5>Mẹo vệ sinh bếp ga sạch sẽ, nhanh chóng</h5>
                                         </a>
                                         <div class="meta d-flex align-items-center">
                                             07-11-2019
                                         </div>
-                                        <a href="" class="ccc">
+                                        <a href="{{route('new_detail')}}" class="ccc">
                                         	<p>Mỗi loại bếp ga khác nhau lại có cách làm sạch khác nhau mà bạn nên lưu ý.</p>
                                         </a>
-                                        <a href=""
+                                        <a href="{{route('new_detail')}}"
                                            class="btn btn-outline-primary btn-sm mt-3">
                                             Đọc tiếp 
                                         </a>
@@ -207,16 +207,16 @@ Tin tức
                                     </div>
                                     <!-- Blog Content -->
                                     <div class="col-md-8 blog-content">
-                                        <a href="" class="blog-headline">
+                                        <a href="{{route('new_detail')}}" class="blog-headline">
                                             <h5>Đến khổ vì chồng sĩ diện</h5>
                                         </a>
                                         <div class="meta d-flex align-items-center">
                                             07-11-2019
                                         </div>
-                                        <a href="" class="ccc">
+                                        <a href="{{route('new_detail')}}" class="ccc">
                                         	<p>Có lần mẹ vợ mua cho cái bếp ga, thế là sấm sét nổ ra luôn trong nhà. Hùng thấy vô cùng mất mặt khi cả cái bếp cũng phải nhờ đến mẹ vợ.</p>
                                         </a>
-                                        <a href=""
+                                        <a href="{{route('new_detail')}}"
                                            class="btn btn-outline-primary btn-sm mt-3">
                                             Đọc tiếp 
                                         </a>
@@ -243,7 +243,7 @@ Tin tức
                         <div class="row naa">
                             <div class="col-md-4 " style="padding:0">
                                 
-                                    <a href="">
+                                    <a href="{{route('new_detail')}}">
                                         <img src="images/1.jpg" style="width: 100%">
                                     </a>
                                
@@ -251,7 +251,7 @@ Tin tức
                                 
                             </div>
                             <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
                         <!-- <div class="row naa">
@@ -273,7 +273,7 @@ Tin tức
                         <div class="row naa">
                             <div class="col-md-4 " style="padding:0">
                                 
-                                    <a href="">
+                                    <a href="{{route('new_detail')}}">
                                         <img src="images/3.jpg" style="width: 100%">
                                     </a>
                                
@@ -281,7 +281,7 @@ Tin tức
                                 
                             </div>
                             <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
                         <!-- <div class="row naa">
@@ -303,7 +303,7 @@ Tin tức
                         <div class="row naa">
                             <div class="col-md-4 " style="padding:0">
                                 
-                                    <a href="">
+                                    <a href="{{route('new_detail')}}">
                                         <img src="images/6.jpg" style="width: 100%">
                                     </a>
                                
@@ -333,7 +333,7 @@ Tin tức
                         <div class="row naa">
                             <div class="col-md-4 " style="padding:0">
                                 
-                                    <a href="">
+                                    <a href="{{route('new_detail')}}">
                                         <img src="images/5.jpg" style="width: 100%">
                                     </a>
                                
@@ -341,7 +341,7 @@ Tin tức
                                 
                             </div>
                             <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
                         <!-- <div class="row naa">
@@ -363,7 +363,7 @@ Tin tức
                         <div class="row naa">
                             <div class="col-md-4 " style="padding:0">
                                 
-                                    <a href="">
+                                    <a href="{{route('new_detail')}}">
                                         <img src="images/2.jpg" style="width: 100%">
                                     </a>
                                
@@ -371,7 +371,7 @@ Tin tức
                                 
                             </div>
                             <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
                         <!-- <div class="row naa">
@@ -393,7 +393,7 @@ Tin tức
                         <div class="row naa">
                             <div class="col-md-4 " style="padding:0">
                                 
-                                    <a href="">
+                                    <a href="{{route('new_detail')}}">
                                         <img src="images/4.jpg" style="width: 100%">
                                     </a>
                                
@@ -401,7 +401,7 @@ Tin tức
                                 
                             </div>
                             <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
                         <!-- <div class="row naa">

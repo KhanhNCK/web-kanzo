@@ -73,7 +73,7 @@ footer {
 /*Menu*/
 .menu_desktop {
   max-width: 100%;
-  width: 1400px; }
+  width: 2800px; }
 
 .menu-wrap {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#058ff7), to(#0175ce));
@@ -81,6 +81,7 @@ footer {
   background-image: -o-linear-gradient(#058ff7, #0175ce);
   background-image: linear-gradient(#058ff7, #0175ce);
   max-width: 100%;
+  width: 2500px;
   /*transition: 0.75s ease;*/ }
 
 .menu {
@@ -289,7 +290,8 @@ footer {
     text-align: center;
     display: flex;
     text-align: center;
-    width: 1500px; }
+    max-width: 100%;
+    width: 2500px; }
 
 .img_hover {
   margin-top: 2%; }

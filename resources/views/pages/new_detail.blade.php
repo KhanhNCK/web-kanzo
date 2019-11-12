@@ -65,6 +65,10 @@ Chi tiết tin tức
                             .list-group-item span{
                             	padding: 5px 0 0 0;
                             }
+                            .list-group-item.active{
+                                background-color:#e67718  !important;
+                                border: none;
+                            }
                         </style>
                          <p>Đây là những mẹo nhỏ nhưng không phải ai cũng biết giúp tiết kiệm ga cho gia đình.</p>
                         <span>
@@ -86,7 +90,7 @@ Chi tiết tin tức
                         <span>
                         	Trong khi nấu bạn hãy chú ý tới ngọn lửa, chỉ cần điều chỉnh núm bếp gas sao cho ngọn lửa vừa với đáy nồi là được. Ngọn lửa quá lớn vừa tốn gas mà món ăn của bạn lại lâu chín bởi lượng nhiệt thay vì tập trung vào đáy nồi lại bị phân tán ra xung quanh.
                         </span>
-                        <img src="images/3.jpg" style="padding: 10px 30px 10px 30px">
+                        <img src="images/1.jpg" style="padding: 10px 30px 10px 30px">
                         <p>4.Tập trung khi nấu ăn không nên chú ý vào việc khác</p>
                         <span>
                         	Một số người có thói quen vừa nấu (đun nước, ninh cháo…) vừa làm việc khác như quét nhà, xem tivi... Và hầu hết đều quên cho tới khi nhớ ra thì một lượng gas đã tiêu hao uổng phí vì món ăn đã quá lửa, nước cạn, thậm chí cháy nồi. Vì thế hãy tập trung khi nấu.
@@ -106,7 +110,7 @@ Chi tiết tin tức
             <div class="col-md-3 tin-tuc-content" data-aos="fade-up" data-aos-delay="400">
                 <ul class="list-group">
                     <li class="list-group-item text-center font-weight-bold"
-                        style="background-color: #058ff7 ; color: white">TIN MỚI
+                        style="background-color: #e67718 ; color: white">TIN MỚI
                     </li>
                  
                         <li class="list-group-item">

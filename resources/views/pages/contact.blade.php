@@ -14,7 +14,16 @@ Liên hệ
 @endsection
 
 @section('content')
+<section>
+  <div class="container-fruid">
+   <div class="h-category-banner">
+  <h2 class="text-center" data-aos="fade-up" data-aos-delay="200" style="color: #fff;">LIÊN HỆ</h2>
+  <div class="h-category-banner-black">
 
+  </div>
+</div>
+  </div>
+</section>
 <section>
 <div class="jumbotron text-center">
   <h3>Liên Hệ Với Kanzo</h3>
@@ -48,7 +57,7 @@ Liên hệ
   </div>
 </div>
 <div class="lienhe mt-4">
-<div class="container mt-4">
+<div class="container mt-4 cutte">
 	<div class="row">
 		<div class="col-md-1 col-sm-0"></div>
 		<div class="col-md-5 col-sm-12">

@@ -53,3 +53,6 @@ Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');
 
+Route::get('/diemban', function () {
+    return view('pages.diemban');
+})->name('diemban');

@@ -4,7 +4,7 @@ Chi tiết sản phẩm
 @endsection
 
 @section('css')
-css riêng
+<link rel="stylesheet" type="text/css" href="css/product.css">
 @endsection
 
 @section('js')
@@ -15,6 +15,12 @@ css riêng
 
 @section('content')
 
-đây là Chi tiết sản phẩm
+<section>
+	<div class="container">
+		<div class="row">
+			
+		</div>
+	</div>
+</section>
 
 @endsection

@@ -449,7 +449,7 @@ Trang chủ
         <section id="tintuc">
             <div class="container">
                 <div class="cap-main">
-                    <h3>CẬP NHẬT TIN TỨC
+                    <h3 class="group__services-text">CẬP NHẬT TIN TỨC
                     </h3>
                 </div>
                 <div class="row">

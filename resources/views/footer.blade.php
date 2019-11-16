@@ -1,9 +1,17 @@
+<div class="phonering-alo-phone phonering-alo-green phonering-alo-show" id="phonering-alo-phoneIcon" >
+	<div class="phonering-alo-ph-circle"></div>
+	 <div class="phonering-alo-ph-circle-fill"></div>
+	<a href="tel:+84123456789" class="pps-btn-img" title="Liên hệ">
+	 <div class="phonering-alo-ph-img-circle"></div>
+	 </a>
+	</div>
+	
 <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 bot-1">
 				<a href="{{route('home')}}">
-					<img src="images/logo_kazo.png" alt="">
+					<img src="images/logo_footer.png" alt="">
 				</a>
 				<h3 class="dk-tt">Đăng Ký Nhận thông Tin</h3>
 
@@ -22,12 +30,12 @@
 			<div class="col-md-3 bot-2">
 				<h3>Liên Kết Nhanh</h3>
 				<ul>
-					<li><a href="{{route('home')}}"><i class="fa fa-angle-double-right"></i>Trang Chủ</a></li>
-					<li><a href="{{route('intro')}}"><i class="fa fa-angle-double-right"></i>Giới Thiệu</a></li>
-					<li><a href="{{route('product')}}"><i class="fa fa-angle-double-right"></i>Sản Phẩm</a></li>
-					<li><a href="{{route('new')}}"><i class="fa fa-angle-double-right"></i>Tin Tức</a></li>
-					<li><a href="#}"><i class="fa fa-angle-double-right"></i>Chính sách</a></li>
-					<li><a href="{{route('contact')}}"><i class="fa fa-angle-double-right"></i>Liên Hệ</a></li>
+					<li><a href="{{route('home')}}">Trang Chủ</a></li>
+					<li><a href="{{route('intro')}}">Giới Thiệu</a></li>
+					<li><a href="{{route('product')}}">Sản Phẩm</a></li>
+					<li><a href="{{route('new')}}">Tin Tức</a></li>
+					<li><a href="#">Chính sách</a></li>
+					<li><a href="{{route('contact')}}">Liên Hệ</a></li>
 				</ul>
 			</div>
 			<div class="col-md-3 bot-2">
@@ -36,3 +44,4 @@
 		</div>
 	</div>
 </footer>
+

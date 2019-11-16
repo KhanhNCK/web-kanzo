@@ -13,7 +13,7 @@
 							<i class="fa fa-phone" aria-hidden="true"></i>
 						</div>
 						<div class="title col-md-8">
-							<span>0123456789</span>
+							<span>0243.233.3311</span>
 							<p>Hotline tư vấn miễn phí</p>
 						</div>
 					</div>
@@ -24,7 +24,7 @@
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</div>
 						<div class="title col-md-8">
-							<span>contact_kanzo@gmail.com</span>
+							<span>Kanzo.anhtuan@gmail.com</span>
 							<p>Liên hệ với chúng tôi</p>
 						</div>
 					</div>
@@ -67,7 +67,6 @@
 					<li>
 						<a href="{{route('intro')}}"><span>Giới thiệu</span></a>
 					</li>
-
 					<li>
 						<a href="{{route('product')}}"><span> Sản phẩm </span></a> <i class="fa fa-angle-right"></i>
 						<ul class="supmenu">
@@ -77,13 +76,11 @@
 
 						</ul>
 					</li>
-
 					<li>
 						<a href="{{route('policy')}}"><span> Chính sách </span></a> <i class="fa fa-angle-right"></i>
 						<ul class="supmenu">
 							<li><a href="{{route('policy')}}"><span>Khuyến mãi </span></a></li>
 							<li><a href="{{route('policy')}}"><span> Bảo hành</span></a></li>
-
 						</ul>
 					</li>
 

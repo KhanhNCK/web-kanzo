@@ -119,24 +119,7 @@ Trang chủ
                             <div class="h-about-content mb-2  text-justify wow slideInLeft">
 
                                 <p style="font-size: 15px;">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia assumenda, deleniti
-                                    soluta voluptas odio esse quod tempore? Error quia, doloremque nostrum, nulla atque
-                                    eos sint obcaecati aperiam quasi, ullam nisi!
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus explicabo,
-                                    incidunt non saepe quasi ullam perferendis unde veritatis atque, aut ab libero dicta
-                                    est nobis odit accusamus ex suscipit?Lorem ipsum, dolor sit amet consectetur
-                                    adipisicing elit. Eveniet libero dignissimos ratione perspiciatis consequatur ipsa
-                                    voluptatem, nam repudiandae obcaecati tempora illo laboriosam quaerat saepe,
-                                    quisquam itaque possimus dolor exercitationem quidem. Lorem, ipsum dolor sit amet
-                                    consectetur adipisicing elit. Sequi dolores nam culpa corrupti ducimus, fugit ipsa
-                                    quibusdam eveniet earum animi vero nesciunt corporis asperiores, non optio est?
-                                    Beatae, repellat explicabo?
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla unde sequi aliquid
-                                    temporibus quo ut fugiat magnam impedit atque voluptatibus explicabo, cupiditate
-                                    recusandae, reiciendis magni eaque. Ea porro laborum sequi.
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ut. Tempora repellat
-                                    expedita incidunt adipisci totam numquam corporis in, ipsum repudiandae magnam cum
-                                    assumenda ut, laboriosam exercitationem, maiores quam. Aspernatur!
+                                    Công ty cổ phần điện tử KANZO Việt Nam hoạt động theo phương châm “Tin cậy, chất lương và hiệu quả”, luôn đặt chữ tín lên hàng đầu, vì vậy chúng tôi luôn ý thức được rằng chất lượng và tiến độ của dự án là một phần quan trọng, chính vì lẽ đó ngoài năng lực về quản lý, nhân sự, nhân lực, kỹ thuật, trang thiết bị, vấn đề tài chính luôn được công ty chú trọng hàng đầu. Chúng tôi luôn có kế hoạch tài chính hàng năm, hàng quý, hàng tháng và từng dự án, từng công việc cụ thể. Vì vậy, Công ty luôn chủ động trong việc thanh quyết toán mua nguyên vật liệu, các khoảng chi phí cũng như lương nhân công,... nhằm đảm bảo chất lượng dự án luôn thông suốt, đúng tiến độ.
                                 </p>
 
                                 <a href="{{route('intro')}}" class="btn-detail" style="border-radius: none;">Xem thêm</a>

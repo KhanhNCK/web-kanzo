@@ -234,11 +234,11 @@ Tin tức
 
             <!-- cột bên phải -->
             <div class="col-md-3 tin-tuc-content" data-aos="fade-up" data-aos-delay="400">
+                
                 <ul class="list-group">
                     <li class="list-group-item text-center font-weight-bold"
-                        style="background-color: #e67718 ; color: white">TIN MỚI
+                        style="background-color: #c18d28 ; color: white">TIN MỚI
                     </li>
-                   
                         <li class="list-group-item">
                         <div class="row naa">
                             <div class="col-md-4 " style="padding:0">
@@ -254,20 +254,7 @@ Tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                     <li class="list-group-item">
                         <div class="row naa">
@@ -284,20 +271,7 @@ Tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                     <li class="list-group-item">
                         <div class="row naa">
@@ -314,20 +288,7 @@ Tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                   <li class="list-group-item">
                         <div class="row naa">
@@ -344,20 +305,7 @@ Tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                     <li class="list-group-item">
                         <div class="row naa">
@@ -374,20 +322,7 @@ Tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                     <li class="list-group-item">
                         <div class="row naa">
@@ -404,21 +339,36 @@ Tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
+
+                    </li>
+                </ul>
+                                <ul class="list-group mt-4 ">
+                    <li class="list-group-item text-center font-weight-bold"
+                        style="background-color: #c18d28 ; color: white">SẢN Phẩm Nổi bật
+                    </li>
+                        <li class="list-group-item">
+                        <div class="row naa">
+                            <div class=" " style="padding:0">
                                 
                                     <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
+                                        <img src="images/1.jpg" style="width: 100%" class="mb-4">
                                     </a>
+                                    <a href="">
+                                        <img src="images/2.jpg" style="width: 100%" class="mb-4">
+                                    </a>
+                                    <a href="">
+                                        <img src="images/ok.jpg" style="width: 100%" class="mb-4">
+                                    </a>
+                               
                                
                                     
                                 
                             </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+                            
+                        </div>
+
                     </li>
+                    
                 </ul>
             </div>
         </div>

@@ -33,25 +33,26 @@ Liên hệ
     <div class="col-sm-3 text-center ">
 	<a href=""><i class="fas fa-2x fa-map-marker-alt mb-3 "></i></a>
 	  <h3>Trụ sở chính</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Số 8 biệt thự 10,khu đô thị Vân Canh,Xã Vân Canh,huyện Hoài Đức thành phố Hà Nội</p>
      
     </div>
     <div class="col-sm-3 text-center">
     	<a href=""><i class="fas fa-2x fa-phone mb-3"></i></a>
       <h3>Liên hệ online</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>0243.233.3311</p>
+     
       
     </div>
     <div class="col-sm-3 text-center">
     	<a href=""><i class="fas fa-2x fa-fax  mb-3"></i></a>
       <h3>Số fax</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>0243.233.3311</p>
       
     </div>
     <div class="col-sm-3 text-center">
     	<a href=""><i class="fas fa-2x fa-envelope mb-3"></i></a>
       <h3>Email</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Kanzo.anhtuan@gmail.com</p>
       
     </div>
   </div>
@@ -84,15 +85,15 @@ Liên hệ
   </form>
 			</div>
 		</div>
-		<div class="col-md-5 col-sm-12">
+		<div class="col-md-6 col-sm-12">
 		   <div class="banner_contract">
 		   	<div class="container">
-		   		<h2>Chi nhánh chúng tôi</h2>
-		   		<img src="images/banner11.jpg">
+		   		<h2 style="margin-bottom: 15px;">Chi nhánh chúng tôi</h2>
+		   		<img src="images/ll.jpg">
 		   	</div>
 		   </div>
 		</div>
-		<div class="col-md-1 col-sm-0"></div>
+		<!-- <div class="col-md-1 col-sm-0"></div> -->
 	</div>
 </div>
 </div>

@@ -6,6 +6,7 @@ Danh mục Sản phẩm
 @section('css')
 <link rel="stylesheet" href="scss/home.css">
 <link rel="stylesheet" href="css/product.css">
+<link rel="stylesheet" type="text/css" href="css/stylett.css">
 @endsection
 
 @section('js')
@@ -17,7 +18,7 @@ Danh mục Sản phẩm
 
 @section('content')
 <main>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3 slide-bar">
 				<div class="list-product">
@@ -29,6 +30,117 @@ Danh mục Sản phẩm
 						
 					</ul>
 				</div>
+				<div class="img_intro">
+      <img src="images/jj.jpg" class="mb-4 mt-2" style="width: 100%;">
+       <img src="images/ff.jpg"  style="height: 300px;    width: 100%;">
+    </div>
+    <ul class="list-group mt-4">
+                    <li class="list-group-item text-center font-weight-bold"
+                        style="background-color: #c18d28 ; color: white">TIN Tức mới nhất
+                    </li>
+                        <li class="list-group-item">
+                        <div class="row naa">
+                            <div class="col-md-4 " style="padding:0">
+                                
+                                    <a href="{{route('new_detail')}}">
+                                        <img src="images/1.jpg" style="width: 100%">
+                                    </a>
+                               
+                                    
+                                
+                            </div>
+                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row naa">
+                            <div class="col-md-4 " style="padding:0">
+                                
+                                    <a href="{{route('new_detail')}}">
+                                        <img src="images/3.jpg" style="width: 100%">
+                                    </a>
+                               
+                                    
+                                
+                            </div>
+                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row naa">
+                            <div class="col-md-4 " style="padding:0">
+                                
+                                    <a href="{{route('new_detail')}}">
+                                        <img src="images/6.jpg" style="width: 100%">
+                                    </a>
+                               
+                                    
+                                
+                            </div>
+                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                  <li class="list-group-item">
+                        <div class="row naa">
+                            <div class="col-md-4 " style="padding:0">
+                                
+                                    <a href="{{route('new_detail')}}">
+                                        <img src="images/5.jpg" style="width: 100%">
+                                    </a>
+                               
+                                    
+                                
+                            </div>
+                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row naa">
+                            <div class="col-md-4 " style="padding:0">
+                                
+                                    <a href="{{route('new_detail')}}">
+                                        <img src="images/2.jpg" style="width: 100%">
+                                    </a>
+                               
+                                    
+                                
+                            </div>
+                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row naa">
+                            <div class="col-md-4 " style="padding:0">
+                                
+                                    <a href="{{route('new_detail')}}">
+                                        <img src="images/4.jpg" style="width: 100%">
+                                    </a>
+                               
+                                    
+                                
+                            </div>
+                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
+                                <a style="color: inherit;text-decoration: none;color: #505050;" href="{{route('new_detail')}}"><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
 			</div>
 			<div class="col-lg-9">
 				<div class="link">
@@ -43,248 +155,232 @@ Danh mục Sản phẩm
 				<hr>
 
 				<div class="row ">
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
+							</div>
+						</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="product">
+						<a href="{{route('product_detail')}}">
+							<img class="image-product" src="images/bt1.jpg" alt="">
+							
+							<div class="name-product">
+								Bếp từ maboshi 2 mặt
+							</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
 				</div>
 				<div class="row ">
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
+							</div>
+						</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="product">
+						<a href="{{route('product_detail')}}">
+							<img class="image-product" src="images/bt1.jpg" alt="">
+							
+							<div class="name-product">
+								Bếp từ maboshi 2 mặt
+							</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
 				</div>
 				<div class="row ">
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
+							</div>
+						</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="product">
+						<a href="{{route('product_detail')}}">
+							<img class="image-product" src="images/bt1.jpg" alt="">
+							
+							<div class="name-product">
+								Bếp từ maboshi 2 mặt
+							</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
 				</div>
 				<div class="row ">
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-md-3">
 						<div class="product">
 						<a href="{{route('product_detail')}}">
 							<img class="image-product" src="images/bt1.jpg" alt="">
-							<div class="sale">20%
-							</div>
+							
 							<div class="name-product">
 								Bếp từ maboshi 2 mặt
 							</div>
-							<div class="row">
-								<div class="final-price col-lg-4">
-									129.000đ
-								</div>
-								<div class="first-price col-lg-4">
-									165.000đ
-								</div>
+							<div class="hh">
+								129.000
+							</div>
+						</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="product">
+						<a href="{{route('product_detail')}}">
+							<img class="image-product" src="images/bt1.jpg" alt="">
+							
+							<div class="name-product">
+								Bếp từ maboshi 2 mặt
+							</div>
+							<div class="hh">
+								129.000
 							</div>
 						</a>
 						</div>

@@ -4,8 +4,9 @@ Chi tiết sản phẩm
 @endsection
 
 @section('css')
-<link rel="stylesheet" href="scss/home.css">
-<link rel="stylesheet" href="css/product-detail.css">
+
+<link rel="stylesheet" type="text/css" href="css/rema.css">
+<link rel="stylesheet" type="text/css" href="css/stylett.css">
 @endsection
 
 @section('js')
@@ -17,107 +18,369 @@ Chi tiết sản phẩm
 @endsection
 
 @section('content')
-<main>
-	<div class="container">
+
+<section>
+  <div class="container-fruid">
+   <div class="h-category-banner">
+  <h2 class="text-center" data-aos="fade-up" data-aos-delay="200" style="color: #fff;">CHI TIẾT SẢN PHẨM</h2>
+  <div class="h-category-banner-black">
+
+  </div>
+</div>
+  </div>
+</section>
+<section>
+
+    <div class="container content-main">
+        <div class="row">
+            <div class="col-md-6">
+                    <div class="contailer">
+                            <div class="mySlides"yy>
+                              <img src="images/ok.jpg" style="width:530px;height: 330px">
+                            </div>
+                            <div class="mySlides">
+                              <img src="images/bt1.jpg" style="width:530px;height: 330px">
+                            </div>
+                            <div class="mySlides">
+                              <img src="images/1.jpg" style="width:530px;height: 330px">
+                            </div>
+                              
+                            <div class="mySlides">
+                              <img src="images/ok.jpg" style="width:530px;height: 330px" >
+                            </div>
+                            <div class="mySlides">
+                              <img src="images/bt1.jpg" style="width:530px;height: 330px" >
+                            </div>
+                            <div class="roww">
+                              <div class="column">
+                                <img class="demo cursor" src="images/ok.jpg" style="width:100%;width: 90px;height: 90px" onclick="currentSlide(1)" alt="The Woods">
+                              </div>
+                              <div class="column">
+                                <img class="demo cursor" src="images/bt1.jpg" style="width:100%;width: 90px;height: 90px" onclick="currentSlide(2)" alt="Cinque Terre">
+                              </div>
+                              <div class="column">
+                                <img class="demo cursor" src="images/1.jpg" style="width:100%;width: 90px;height: 90px" onclick="currentSlide(3)" alt="Mountains and fjords">
+                              </div>
+                              <div class="column">
+                                <img class="demo cursor" src="images/ok.jpg" style="width:100%;width: 90px;height: 90px" onclick="currentSlide(4)" alt="Northern Lights">
+                              </div>
+                              <div class="column">
+                                <img class="demo cursor" src="images/bt1.jpg" style="width:100%;width: 90px;height: 90px" onclick="currentSlide(5)" alt="Nature and sunrise">
+                              </div>
+                            </div>
+                          </div>
+            </div>
+            <div class="col-md-6">
+              <h5 class="row name-fruid">KZ-ECO-6666-GAS Japan Technology</h6>
+     
+              <div class="row sale">
+                  <h4 class="price">3900000</h4>
+              </div>
+              <p class="row attribute">
+               <h4>* Tính năng sản phẩm</h4>
+               <ul>
+                   <li>Mâm chia lửa bằng đồng</li>
+                  <li>Chế độ tiết kiệm gas</li>
+                   <li>Mặt kính cường lực, chịu nhiệt, dày 8mm</li>
+                   <li>Cảm biến an toàn tự động khóa gas</li>
+                   <li>Khay Inox 304, bát, pép chia lửa bằng đồng</li>
+                   <li>Hệ thống đánh lửa I/C (pin)</li>
+                   <li>Họng bếp đồng chống kết dính khi sử dụng</li>
+                 </ul>
+              <h4>* Thông số kĩ thuật</h4>
+              <ul>
+                   <li>Kích thước mặt kính : 750x430mm</li>
+                   <li>Kích thước khoét đá: 650x350mm</li>
+                   <li>Công suất : 3.0 KW + 3.0 KW</li>
+                 </ul>
+              </p>
+              <div class="row add-to-cart">
+                <button class="btn add-cart" type="button">Xem điểm bán</button>
+                <button class="btn add-cart" type="button">Mua ngay</button>
+                
+              </div>
+              
+            </div>
+        </div>
+        
+    </div>
+    <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <div class="card mb-10">
-          <div class="card-header">
-            <nav class="header-navigation">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
-                <li class="breadcrumb-item"><a href="#">Sản phẩm</a></li>
-                <li class="breadcrumb-item"><a href="#">Chi tiết sản phẩm</a></li>
-                <li class="breadcrumb-item active" aria-current="page">bếp từ abcxyz</li>
-              </ol>
-            </nav>
+          <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'London')" style="border: none;outline: none;">Thông tin sản phẩm</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')" style="border: none;outline: none;">Thông số kĩ thuật</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')" style="border: none;outline: none;">Hướng dẫn sử dụng</button>
           </div>
-          <div class="card-body store-body">
-            <div class="product-info">
-              <div class="product-gallery">
-                <div class="product-gallery-thumbnails">
-                  <ol class="thumbnails-list list-unstyled">
-                    <li><img src="images/bt1.jpg" alt=""></li>
-                    <li><img src="images/product-2.jpg" alt=""></li>
-                  </ol>
-                </div>
-                <div class="product-gallery-featured">
-                  <img src="images/bt1.jpg" alt="">
-                </div>
-              </div>
-              <div class="product-seller-recommended">
-                <h3 class="mb-5">Sản phẩm nổi bật</h3>
-                <div class="recommended-items card-deck">
-                  <div class="card">
-                    <img src="images/bt1.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">126.000đ</h5>
-                      <span class="text-muted"><small>bếp từ abcxyz</small></span>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="images/bt1.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">126.000đ</h5>
-                      <span class="text-muted"><small>bếp từ abcxyz</small></span>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="images/bt1.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">126.000đ</h5>
-                      <span class="text-muted"><small>bếp từ abcxyz</small></span>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="images/bt1.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">126.000đ</h5>
-                      <span class="text-muted"><small>bếp từ abcxyz</small></span>
-                    </div>
-                  </div>
-                </div>
-                <!-- /.recommended-items-->
-                <div class="product-description mb-5">
-                  <h2 class="mb-5">Đặc trưng sản phẩm</h2>
-                  <dl class="row mb-5">
-                    <dt class="col-sm-3">Chất liệu</dt>
-                    <dd class="col-sm-9">Đá inox</dd>
-                    <dt class="col-sm-3">Kích thước</dt>
-                    <dd class="col-sm-9">30 x 30(cm)</dd>
-                    <dt class="col-sm-3">Số lượng</dt>
-                    <dd class="col-sm-9"> 1 chiếc</dd>
           
-                  </dl>
-                  <h2 class="mb-5">Mô tả sản phẩm</h2>
-                  <img src="images/product-3.jpg" class="mt-3 mb-5" alt="">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maiores fuga repudiandae et temporibus nesciunt saepe illum quaerat, tenetur facilis quos enim ex praesentium adipisci, odio quo. Debitis, id architecto.</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maiores fuga repudiandae et temporibus nesciunt saepe illum quaerat, tenetur facilis quos enim ex praesentium adipisci, odio quo. Debitis, id architecto.</p>
-                </div>
-                <div class="product-faq mb-5">
-                  <h2 class="mb-3">Thông tin bạn quan tâm</h2>
-                  <div class="main-questions d-inline" data-container="body" data-toggle="popover" data-placement="right" data-content="Are you in doubt? these shortcuts can help you!">
-                    <a href="#" class="btn btn-outline-primary">Chi phí và thời gian giao hàng</a>
-                    <a href="#" class="btn btn-outline-primary">Chính sách bảo hiểm</a>
-                    <a href="#" class="btn btn-outline-primary">Hình thức thanh toán</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="product-payment-details">
-              <h4 class="product-title mb-2">bếp từ abcxyz</h4>
-              <h2 class="product-price display-4">126.000đ</h2>
+          <div id="London" class="tabcontent" style="display:block;">
+            
+            <ul style="margin: 2rem 0rem 1rem 0rem;">
+              <li><i class="fa fa-check" aria-hidden="true" style="color:#c18d28;margin-right: 5px"></i>Mâm chia lửa bằng đồng</li>
+              <li><i class="fa fa-check" aria-hidden="true" style="color:#c18d28;margin-right: 5px"></i>Chế độ tiết kiệm gas</li>
+              <li><i class="fa fa-check" aria-hidden="true" style="color:#c18d28;margin-right: 5px"></i>Mặt kính cường lực, chịu nhiệt, dày 8mm</li>
+              <li><i class="fa fa-check" aria-hidden="true" style="color:#c18d28;margin-right: 5px"></i>Khay Inox 304, bát, pép chia lửa bằng đồng</li>
+              <li><i class="fa fa-check" aria-hidden="true" style="color:#c18d28;margin-right: 5px"></i>Hệ thống đánh lửa I/C (pin)</li>
+              <li><i class="fa fa-check" aria-hidden="true" style="color:#c18d28;margin-right: 5px"></i>Hệ thống đánh lửa I/C (pin)</li>
+              <li><i class="fa fa-check" aria-hidden="true" style="color:#c18d28;margin-right: 5px"></i>Họng bếp đồng chống kết dính khi sử dụng</li>
+            </ul>
+          </div>
+          
+          <div id="Paris" class="tabcontent">
+            
+            <ul style="margin: 2rem 0rem 1rem 0rem;">
+              <li><i class="fa fa-check" aria-hidden="true" style="color:#c18d28;margin-right: 5px"></i>Kích thước mặt kính : 750x430mm</li>
+              <li><i class="fa fa-check" aria-hidden="true" style="color:#c18d28;margin-right: 5px"></i>Kích thước khoét đá: 650x350mm</li>
+              <li><i class="fa fa-check" aria-hidden="true" style="color:#c18d28;margin-right: 5px"></i>Công suất : 3.0 KW + 3.0 KW</li>
               
-              <p class="mb-0"><i class="fa fa-truck"></i>Giao hàng mọi nơi trên toàn quốc</p>
-              <a href="#" class="text-muted mb-2"><small>Thời gian và hình thức vân chuyển </small></a>
-              <input type="number" name="quantity" min="1" id="quant" class="form-control mb-5 input-lg" placeholder="Số lượng">
-              <button class="btn btn-primary btn-lg btn-block">Đặt mua</button>
-              
-            </div>
+            </ul>
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <p>Khi lắp đặt bếp gas, cần để bếp cách xa tường tối thiểu 15 cm, nếu phía trên bếp gas có kệ, thì nên đặt kệ cách xa bếp gas ít nhất 1 mét. Nên đặt bếp gas trên một kệ cố định, và kệ này cách mặt đất tối thiểu 1 mét. Việc này giúp cho không gian xung quanh bếp gas thông thoáng hơn, tránh cháy nổ.<br/>
+
+Bên cạnh đó, nên đặt bếp gas ở nơi thoáng mát, nhưng không nên đặt bếp gas ở nơi có gió lùa (cửa sổ, gần quạt máy…) để tránh lửa bị tắt, hao phí gas.<br/>
+
+Dây dẫn gas luôn được nối chắc chắn, khít, để tránh xì gas, nên để ý đường dây để tránh dây bị xoắn, làm gas không lên đều.</p>
           </div>
         </div>
-      </div>
     </div>
-  </div>
-</main>
+    </div>
+</section>
+<section>
+  <center class="container content-fainaly">
+    <h1>SẢN PHẨM LIÊN QUAN</h1>
+    <p>Có 4 sản phẩm liên quan</p>
+    <div class="row">
+    <div class="col-md-3">
+      <div class="product">
+            <a href="{{route('product_detail')}}">
+              <img class="image-product" src="images/bt1.jpg" alt="">
+
+              <div class="name-product">
+                Bếp từ maboshi 2 mặt
+              </div>
+              <div class="hh">
+                129.000
+              </div>
+            </a>
+            </div>
+    </div> 
+    <div class="col-md-3 ">
+      <div class="product">
+            <a href="{{route('product_detail')}}">
+              <img class="image-product" src="images/bt1.jpg" alt="">
+
+              <div class="name-product">
+                Bếp từ maboshi 2 mặt
+              </div>
+              <div class="hh">
+                129.000
+              </div>
+            </a>
+            </div>
+    </div> 
+    <div class="col-md-3 ">
+      <div class="product">
+            <a href="{{route('product_detail')}}">
+              <img class="image-product" src="images/bt1.jpg" alt="">
+
+              <div class="name-product">
+                Bếp từ maboshi 2 mặt
+              </div>
+              <div class="hh">
+                129.000
+              </div>
+            </a>
+            </div>
+    </div> 
+    <div class="col-md-3 ">
+      <div class="product">
+            <a href="{{route('product_detail')}}">
+              <img class="image-product" src="images/bt1.jpg" alt="">
+
+              <div class="name-product">
+                Bếp từ maboshi 2 mặt
+              </div>
+              <div class="hh">
+                129.000
+              </div>
+            </a>
+            </div>
+    </div> 
+    </div>
+  </center>
+</section>
+<section>
+  <center class="container content-fainaly">
+    <h1>SẢN PHẨM XEM NHIỀU NHẤT</h1>
+    <p>Có 4 sản phẩm xem nhiều</p>
+    <div class="row">
+    <div class="col-md-3">
+      <div class="product">
+            <a href="{{route('product_detail')}}">
+              <img class="image-product" src="images/bt1.jpg" alt="">
+
+              <div class="name-product">
+                Bếp từ maboshi 2 mặt
+              </div>
+              <div class="hh">
+                129.000
+              </div>
+            </a>
+            </div>
+    </div> 
+    <div class="col-md-3 ">
+      <div class="product">
+            <a href="{{route('product_detail')}}">
+              <img class="image-product" src="images/bt1.jpg" alt="">
+
+              <div class="name-product">
+                Bếp từ maboshi 2 mặt
+              </div>
+              <div class="hh">
+                129.000
+              </div>
+            </a>
+            </div>
+    </div> 
+    <div class="col-md-3 ">
+      <div class="product">
+            <a href="{{route('product_detail')}}">
+              <img class="image-product" src="images/bt1.jpg" alt="">
+
+              <div class="name-product">
+                Bếp từ maboshi 2 mặt
+              </div>
+              <div class="hh">
+                129.000
+              </div>
+            </a>
+            </div>
+    </div> 
+    <div class="col-md-3 ">
+      <div class="product">
+            <a href="{{route('product_detail')}}">
+              <img class="image-product" src="images/bt1.jpg" alt="">
+
+              <div class="name-product">
+                Bếp từ maboshi 2 mặt
+              </div>
+              <div class="hh">
+                129.000
+              </div>
+            </a>
+            </div>
+    </div> 
+    </div>
+  </center>
+</section>
+<script>
+  $(document).ready(function(){
+    $(".li-size-1").click(function(){
+      $(this).css("color","#86ba09");
+      $(this).css("border","2px solid #86ba09");
+      $(".li-size-2").css("color","#212529");
+      $(".li-size-2").css("border","2px solid #ebebeb");
+      $(".li-size-3").css("color","#212529");
+      $(".li-size-3").css("border","2px solid #ebebeb");
+    });
+    $(".li-size-2").click(function(){
+      $(this).css("color","#86ba09");
+      $(this).css("border","2px solid #86ba09");
+      $(".li-size-1").css("color","#212529");
+      $(".li-size-1").css("border","2px solid #ebebeb");
+      $(".li-size-3").css("color","#212529");
+      $(".li-size-3").css("border","2px solid #ebebeb");
+    });
+    $(".li-size-3").click(function(){
+      $(this).css("color","#86ba09");
+      $(this).css("border","2px solid #86ba09");
+      $(".li-size-2").css("color","#212529");
+      $(".li-size-2").css("border","2px solid #ebebeb");
+      $(".li-size-1").css("color","#212529");
+      $(".li-size-1").css("border","2px solid #ebebeb");
+    });
+    $(".li-size-s").click(function(){
+      $(this).css("color","#86ba09");
+      $(this).css("border","2px solid #86ba09");
+      $(".li-size-m").css("color","#212529");
+      $(".li-size-m").css("border","2px solid #ebebeb");
+      $(".li-size-l").css("color","#212529");
+      $(".li-size-l").css("border","2px solid #ebebeb");
+      $(".li-size-xl").css("color","#212529");
+      $(".li-size-xl").css("border","2px solid #ebebeb");
+    });
+    $(".li-size-m").click(function(){
+      $(this).css("color","#86ba09");
+      $(this).css("border","2px solid #86ba09");
+      $(".li-size-s").css("color","#212529");
+      $(".li-size-s").css("border","2px solid #ebebeb");
+      $(".li-size-l").css("color","#212529");
+      $(".li-size-l").css("border","2px solid #ebebeb");
+      $(".li-size-xl").css("color","#212529");
+      $(".li-size-xl").css("border","2px solid #ebebeb");
+    });
+    $(".li-size-l").click(function(){
+      $(this).css("color","#86ba09");
+      $(this).css("border","2px solid #86ba09");
+      $(".li-size-m").css("color","#212529");
+      $(".li-size-m").css("border","2px solid #ebebeb");
+      $(".li-size-s").css("color","#212529");
+      $(".li-size-s").css("border","2px solid #ebebeb");
+      $(".li-size-xl").css("color","#212529");
+      $(".li-size-xl").css("border","2px solid #ebebeb");
+    });
+    $(".li-size-xl").click(function(){
+      $(this).css("color","#86ba09");
+      $(this).css("border","2px solid #86ba09");
+      $(".li-size-m").css("color","#212529");
+      $(".li-size-m").css("border","2px solid #ebebeb");
+      $(".li-size-l").css("color","#212529");
+      $(".li-size-l").css("border","2px solid #ebebeb");
+      $(".li-size-s").css("color","#212529");
+      $(".li-size-s").css("border","2px solid #ebebeb");
+    });
+  });
+  // tab
+  function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+  </script>
 @endsection
+

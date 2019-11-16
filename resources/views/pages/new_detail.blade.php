@@ -14,41 +14,19 @@ Chi tiết tin tức
 @endsection
 
 @section('content')
-
+    <div class="container-fruid">
+   <div class="h-category-banner">
+  <h2 class="text-center" data-aos="fade-up" data-aos-delay="200" style="color: #fff;">CHI TIẾT TIN TỨC</h2>
+  <div class="h-category-banner-black">
+  </div>
+</div>
+  </div>
 <section>
-	<div class="banner-warp">
-       <div class="banner">
-            <div class="banner-member">
-              <!--   <img src="images/anh-1.jpg" class="img-fluid"> -->
-                <div class="banner-member-text">
-                    <div class="container">
-                        <div class="banner-member-text-title">
-                            <h2 class="font-bold text-center text-banner" data-aos="fade-up" data-aos-delay="200">TIN
-                                TỨC</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <div class="container ">
         <div class="row mt-5">
-        <!-- <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
-        <ul class="list-group">
-        <li class="list-group-item active text-center font-weight-bold">HÌNH ẢNH</li>
-        <li class="list-group-item">
-        <img src="http://www.ppivn.vn/userfiles/giaysanphamgiay_QWBM.jpeg" style="width: 100%" class="mt-3">
-        <img src="http://hhppaper.com/image/data/hhppaper/slide/nh%20h%E1%BA%A3i%20ph%C3%B2ng.jpg" style="width: 100%" class="mt-3">
-       <img src="http://hhppaper.com/image/data/hjghv.JPG" style="width: 100%" class="mt-3">
-        <img src="http://hhppaper.com/image/data/ch%C3%A0o%20s%C3%A0n%20hhp/ed4716c1f553140d4d42.jpg" style="width: 100%" class="mt-3">
-        </li>
 
-        </ul>
-        </div> -->
-
-
-        <!-- cột 2 -->
             <div class="col-md-9 mb-3" data-aos="fade-up" data-aos-delay="300">
                 <ul class="list-group">
                     <li class="list-group-item active text-center font-weight-bold">Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</li>
@@ -66,7 +44,7 @@ Chi tiết tin tức
                             	padding: 5px 0 0 0;
                             }
                             .list-group-item.active{
-                                background-color:#e67718  !important;
+                                background-color:#c18d28  !important;
                                 border: none;
                             }
                         </style>
@@ -110,7 +88,7 @@ Chi tiết tin tức
             <div class="col-md-3 tin-tuc-content" data-aos="fade-up" data-aos-delay="400">
                 <ul class="list-group">
                     <li class="list-group-item text-center font-weight-bold"
-                        style="background-color: #e67718 ; color: white">TIN MỚI
+                        style="background-color: #c18d28 ; color: white">TIN MỚI
                     </li>
                  
                         <li class="list-group-item">
@@ -128,20 +106,7 @@ Chi tiết tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                     <li class="list-group-item">
                         <div class="row naa">
@@ -158,20 +123,7 @@ Chi tiết tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                     <li class="list-group-item">
                         <div class="row naa">
@@ -188,20 +140,7 @@ Chi tiết tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                     <li class="list-group-item">
                         <div class="row naa">
@@ -218,20 +157,7 @@ Chi tiết tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                     <li class="list-group-item">
                         <div class="row naa">
@@ -248,20 +174,7 @@ Chi tiết tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                     <li class="list-group-item">
                         <div class="row naa">
@@ -278,23 +191,36 @@ Chi tiết tin tức
                                 <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Bếp ga Paloma PA-6MEJ siêu thị điện máy hc siêu thị hc</span></a>
                             </div>
                         </div>
-                        <!-- <div class="row naa">
-                            <div class="col-md-4 " style="padding:0">
-                                
-                                    <a href="">
-                                        <img src="images/3.jpg" style="width: 100%">
-                                    </a>
-                               
-                                    
-                                
-                            </div>
-                            <div class="col-md-8" style="padding: 0 10px; font-size: 14px">
-                                <a style="color: inherit;text-decoration: none;color: #505050;" href=""><span>Đun nấu xong nhớ bỏ 3s làm việc này, vừa tiết kiệm 50% ga lại an toàn, chống cháy nổ</span></a>
-                            </div>
-                        </div> -->
+
                     </li>
                   
                 </ul>
+                               <ul class="list-group mt-4 ">
+                    <li class="list-group-item text-center font-weight-bold"
+                        style="background-color: #c18d28 ; color: white">SẢN Phẩm Nổi bật
+                    </li>
+                        <li class="list-group-item">
+                        <div class="row naa">
+                            <div class=" " style="padding:0">
+                                
+                                    <a href="">
+                                        <img src="images/1.jpg" style="width: 100%" class="mb-4">
+                                    </a>
+                                    <a href="">
+                                        <img src="images/2.jpg" style="width: 100%" class="mb-4">
+                                    </a>
+                                    <a href="">
+                                        <img src="images/ok.jpg" style="width: 100%" class="mb-4">
+                                    </a>
+                                
+                            </div>
+                            
+                        </div>
+
+                    </li>
+                    
+                </ul>
+                                
             </div>
 
         </div>

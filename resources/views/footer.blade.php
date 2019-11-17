@@ -22,10 +22,10 @@
 			</div>
 			<div class="col-md-3 bot-2">
 				<h3>Liên Hệ</h3>
-				<p><span>Địa Chỉ: </span>Số 03 Định Công Thượng - Hoàng Mai - Hà Nội</p>
-				<p><span>Văn Phòng: </span>Số Nhà 173 Hoàng Hoa Thám - Thanh Xuân - Hà Nội</p>
-				<p><span>HotLine: </span>0363 373 385</p>
-				<p><span>Email: </span>talent-wins@gmail.com</p>
+				<p><span>Công ty: </span>Công ty cổ phần điện tử Kanzo Việt Nam.</p>
+				<p><span>Địa chỉ: </span>Số 8, Biệt thự 10, Khu đô thị Văn Canh , xã Văn Canh , huyện Hoài Đức, thành phố Hà Nội.</p>
+				<p><span>Fax: </span>02432333311</p>
+				<p><span>Email: </span>kanzo.anhtuan@gmail.com</p>
 			</div>
 			<div class="col-md-3 bot-2">
 				<h3>Liên Kết Nhanh</h3>
@@ -40,8 +40,11 @@
 			</div>
 			<div class="col-md-3 bot-2">
 				<h3>Liên Kết Fanpage</h3>
-				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FadminNCK%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=326766014703690" width="340" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+				<iframe src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/Kanzovietnam&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=326766014703690" width="340" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 		</div>
 	</div>
 </footer>
+<div class="copyright">
+	<p>Copyright © 2017 All rights reserved. Công ty cổ phần Điện tử Kanzo Việt Nam | Thiết kế bởi web88.vn</p>
+</div>
 

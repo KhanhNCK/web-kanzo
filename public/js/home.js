@@ -23,6 +23,9 @@ $(document).ready(function () {
             $(this).parent().addClass("active");
         }       
     });
+    $(".popup").on('click', function () {
+        $('.popup').hide();
+    });
 });
 
 //menu fixed
@@ -36,3 +39,5 @@ function scrollFunction() {
     document.getElementById("menu_fixed").style.top = "-80px";
   }
 }
+
+
